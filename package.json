@@ -1,32 +1,31 @@
 {
   "name": "gatsby-plugin-drupal-comments",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This Gatsby Plugin is for embedding drupal comment form",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Marouandev/gatsby-plugin-drupal-comments.git"
   },
   "keywords": [
     "gatsby",
-    "gatsby-plugin",
-    "drupal"
+    "gatsby-plugin"
   ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "marouandev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Marouandev/gatsby-plugin-drupal-comments/issues"
   },
+  "homepage": "https://github.com/Marouandev/gatsby-plugin-drupal-comments#readme",
   "dependencies": {
-    "react-intl": "^2.9.0",
-    "axios": "^0.18.0"
-  },
-  "peerDependencies": {
     "react-intl": "^2.9.0",
     "axios": "^0.18.0"
   },
   "devDependencies": {
     "react-intl": "^2.9.0",
     "axios": "^0.18.0"
-  },
-  "author": "marouan<mh.marouan@gmail.com>",
-  "license": "MIT"
+  }
 }
