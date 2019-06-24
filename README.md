@@ -19,3 +19,5 @@ import DrupalComments from 'gatsby-plugin-drupal-comments';
              login_api = "username"
              password_api = "password"
         />
+        
+![comment-gatsbyjs-drupal](https://user-images.githubusercontent.com/6507511/60003450-0620f100-966b-11e9-9027-17d94501d764.png)
