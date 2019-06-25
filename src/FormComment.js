@@ -3,21 +3,31 @@ const React = require('react')
 const axios = require('axios')
 
 class FormComment extends React.Component {
-  state = {
-    firstName: "",
-    email: "",
-    subject: "",
-    message: "",
-    parent: "",
-    formErrors: {email: '', message: ''},
-    emailValid: false,
-    messageValid: false,
-    formValid: false,
-    data: [],
+
+  constructor(props) {
+        super(props)
+
+        // Bind the this context to the handler function
+        this.handleInputChange = this.handleInputChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this)
+
+        // Set some state
+        this.state = {
+            firstName: "",
+            email: "",
+            subject: "",
+            message: "",
+            parent: "",
+            formErrors: {email: '', message: ''},
+            emailValid: false,
+            messageValid: false,
+            formValid: false,
+            data: [],
+        }
   }
 
   // Alter data state
-  handleInputChange = event => {
+  handleInputChange(event){
     const target = event.target
     const value = target.value
     const name = target.name
@@ -68,7 +78,7 @@ class FormComment extends React.Component {
   }
 
   //function submit form
-  handleSubmit = event => {
+  handleSubmit(event){
     event.preventDefault()
     if(this.state.email.length > 0){
       this.validateField('email', this.state.email)

@@ -2,9 +2,11 @@
   "name": "gatsby-plugin-drupal-comments",
   "version": "1.0.1",
   "description": "This Gatsby Plugin is for embedding drupal comment form",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -21,11 +23,21 @@
   },
   "homepage": "https://github.com/Marouandev/gatsby-plugin-drupal-comments#readme",
   "dependencies": {
+    "axios": "^0.18.0",
+    "css-loader": "^3.0.0",
+    "prop-types": "^15.7.2",
     "react-intl": "^2.9.0",
-    "axios": "^0.18.0"
+    "style-loader": "^0.23.1",
+    "webpack": "^2.6.1"
   },
   "devDependencies": {
     "react-intl": "^2.9.0",
-    "axios": "^0.18.0"
+    "axios": "^0.18.0",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
   }
 }

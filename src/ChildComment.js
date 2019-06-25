@@ -6,9 +6,15 @@ const React = require('react')
 const axios = require('axios')
 
 class ChildComment extends React.Component {
-  state = {
-    childcomments: [],
+  constructor(props) {
+        super(props)
+
+        // Set some state
+        this.state = {
+            childcomments: [],
+        };
   }
+  
   componentDidMount() {
     const params = this.getProps()
     const sort = "&sort[sort-created][path]=created&sort[sort-created][direction]=DESC"

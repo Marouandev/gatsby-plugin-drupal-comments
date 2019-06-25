@@ -1,0 +1,107 @@
+.block-drupal-comments{
+  padding-top: 25px;
+}
+  .drupal-form-comments {
+    padding-bottom: 30px;
+  }
+    .drupal-form-comment .field-input {
+      padding-bottom: 0.75rem;
+    }
+
+      .drupal-form-comment input, .drupal-form-comment textarea {
+        display: block;
+          width: 100%;
+          height: calc(1.5em + .75rem + 2px);
+          padding: .375rem .75rem;
+          font-size: 1rem;
+          font-weight: 400;
+          line-height: 1.5;
+          color: #495057;
+          background-color: #fff;
+          background-clip: padding-box;
+          border: 1px solid #ced4da;
+          border-radius: .25rem;
+          transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+      }
+
+      .drupal-form-comment textarea {
+        height: auto;
+      }
+
+    .drupal-form-comment button{
+      display: inline-block;
+        font-weight: bold;
+        color: #212529;
+        text-align: center;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color: transparent;
+        border: 1px solid transparent;
+        padding: .375rem .75rem;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        color: #fff;
+        background-color: #663399;
+        border-color: #663399;
+    }
+
+    .drupal-form-comment .error-message, .drupal-form-comment .error-email{
+      border: 1px solid red;
+    }
+
+
+  .drupal-list-comments .item-comment{
+    display: table;
+    margin-bottom: 19px;
+    vertical-align: top;
+  }
+    .drupal-list-comments .comment__meta{
+        padding: 0 30px 0 0;
+          font-size: 1.071em;
+          display: block;
+    }
+
+    .drupal-list-comments .comment__content{
+        padding: 0 30px 0 0;
+          font-size: 1.071em;
+          position: relative;
+          display: table-cell;
+          width: 100%;
+          padding: 10px 25px 10px 25px;
+          vertical-align: top;
+          word-break: break-all;
+          border: 1px solid #d3d7d9;
+          font-size: 0.929em;
+          line-height: 1.6;
+    }
+
+    .drupal-list-comments .comment__content:before{
+        position: absolute;
+          top: 20px;
+          right: 100%;
+          content: "";
+          border-top: 20px solid transparent;
+          border-right: 20px solid #d3d7d9;
+          border-bottom: 20px solid transparent;
+    }
+
+    .drupal-list-comments .reply-button{
+        box-sizing: inherit;
+          color: #8a4baf;
+          font-size: 14px;
+          line-height: 17px;
+          text-decoration: none;
+          background: transparent;
+          border: 0;
+          padding-top: 10px;
+          cursor: pointer;
+          text-transform: capitalize;
+    }
+
+    .drupal-list-comments .child-comments{
+      margin-left: 40px;
+    }

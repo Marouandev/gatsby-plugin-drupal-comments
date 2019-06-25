@@ -12,6 +12,9 @@ class Comment extends React.Component {
 
         // Bind the this context to the handler function
         this.handleCommentSubmit = this.handleCommentSubmit.bind(this)
+        this.onHideChild = this.onHideChild.bind(this)
+        this.onAddChild = this.onAddChild.bind(this)
+
 
         // Set some state
         this.state = {
@@ -30,14 +33,14 @@ class Comment extends React.Component {
     return props;
   }
 
-  onAddChild = event => {
+  onAddChild(event){
     event.preventDefault()
     this.setState({
       replyform: true
     })
   }
 
-  onHideChild = event => {
+  onHideChild(event){
     event.preventDefault()
     this.setState({
       replyform: false
