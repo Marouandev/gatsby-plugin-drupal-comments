@@ -6,6 +6,9 @@ This plugin require [Drupal JSONAPI module](https://www.drupal.org/project/jsona
 # Installation
 npm install gatsby-plugin-drupal-comments --save
 
+# Demo
+https://demo-gatsby-drupal-comments.netlify.com
+
 # Usage
 import DrupalComments from 'gatsby-plugin-drupal-comments';
 
