@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/Marouandev/gatsby-plugin-drupal-comments#readme",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "css-loader": "^3.0.0",
     "prop-types": "^15.7.2",
     "react-intl": "^2.9.0",
@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "react-intl": "^2.9.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
