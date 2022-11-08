@@ -28,7 +28,7 @@
     "prop-types": "^15.7.2",
     "react-intl": "^2.9.0",
     "style-loader": "^0.23.1",
-    "webpack": "^2.6.1"
+    "webpack": "^5.74.0"
   },
   "devDependencies": {
     "react-intl": "^2.9.0",
